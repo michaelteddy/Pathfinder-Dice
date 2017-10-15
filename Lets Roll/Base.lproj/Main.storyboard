@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lets_Roll" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="OUA-bZ-sWI">
+                                <rect key="frame" x="87.5" y="40" width="200" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="1Kw-zh-jmX"/>
+                                    <constraint firstAttribute="width" secondItem="OUA-bZ-sWI" secondAttribute="height" multiplier="4:3" id="Ebm-u5-i4G"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="Nkc-6F-cGQ">
+                                <rect key="frame" x="67.5" y="293.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="fPQ-Dy-4uh"/>
+                                    <constraint firstAttribute="width" secondItem="Nkc-6F-cGQ" secondAttribute="height" multiplier="1:1" id="sYY-2g-YsK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice3" translatesAutoresizingMaskIntoConstraints="NO" id="pZN-m4-h25">
+                                <rect key="frame" x="207.5" y="293.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pZN-m4-h25" secondAttribute="height" multiplier="1:1" id="791-yn-i6W"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRQ-P4-3kp">
+                                <rect key="frame" x="137.5" y="567" width="100" height="50"/>
+                                <color key="backgroundColor" red="0.80983120203018188" green="0.22400647401809692" blue="0.18417012691497803" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Noa-50-SOj"/>
+                                    <constraint firstAttribute="height" constant="50" id="dr3-t1-jZX"/>
+                                </constraints>
+                                <state key="normal" title="Roll It !">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="rollIt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ith-bL-KW0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57279596082849249" green="0.73336881399999998" blue="0.72617850339507506" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="OUA-bZ-sWI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Cjj-BS-9eO"/>
+                            <constraint firstItem="Nkc-6F-cGQ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="-70" id="EXG-yM-jSi"/>
+                            <constraint firstItem="pZN-m4-h25" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="JXj-Ji-rpt"/>
+                            <constraint firstItem="pZN-m4-h25" firstAttribute="width" secondItem="Nkc-6F-cGQ" secondAttribute="width" id="XZe-Ie-Ivd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZRQ-P4-3kp" secondAttribute="bottom" constant="50" id="YIv-hf-0EC"/>
+                            <constraint firstItem="OUA-bZ-sWI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Z0m-Cq-Vgo"/>
+                            <constraint firstItem="ZRQ-P4-3kp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jJj-U0-KtX"/>
+                            <constraint firstItem="pZN-m4-h25" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="70" id="r6U-In-LKW"/>
+                            <constraint firstItem="Nkc-6F-cGQ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="v5D-ip-YdM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="dieImage1" destination="Nkc-6F-cGQ" id="Fa0-Be-HeL"/>
+                        <outlet property="dieImage2" destination="pZN-m4-h25" id="dgw-aN-2aP"/>
+                        <outlet property="rollButton" destination="ZRQ-P4-3kp" id="gZJ-8i-Pww"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dice1" width="256" height="251"/>
+        <image name="dice3" width="256" height="251"/>
+        <image name="title" width="599" height="461"/>
+    </resources>
+</document>
