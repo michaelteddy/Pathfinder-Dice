@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54E739D1778A0431C98FCDE7 /* Pods_Lets_RollUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F182808E84CE66286ED113AC /* Pods_Lets_RollUITests.framework */; };
+		67D9B77B54B4BA867C393424 /* Pods_Lets_RollTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20EFC8FA905FF5A528BF2DBD /* Pods_Lets_RollTests.framework */; };
+		C221C1AE8FF4081A09615B86 /* Pods_Lets_Roll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F8EACD46F3A4EAF91629B7 /* Pods_Lets_Roll.framework */; };
 		FA2EE8AF1F921AD500D9E6EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EE8AE1F921AD500D9E6EC /* AppDelegate.swift */; };
 		FA2EE8B11F921AD500D9E6EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EE8B01F921AD500D9E6EC /* ViewController.swift */; };
 		FA2EE8B41F921AD500D9E6EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2EE8B21F921AD500D9E6EC /* Main.storyboard */; };
@@ -14,6 +17,10 @@
 		FA2EE8B91F921AD500D9E6EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2EE8B71F921AD500D9E6EC /* LaunchScreen.storyboard */; };
 		FA2EE8C41F921AD600D9E6EC /* Lets_RollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EE8C31F921AD600D9E6EC /* Lets_RollTests.swift */; };
 		FA2EE8CF1F921AD600D9E6EC /* Lets_RollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EE8CE1F921AD600D9E6EC /* Lets_RollUITests.swift */; };
+		FADBA26B1F975A030081D982 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBA26A1F975A030081D982 /* LoginViewController.swift */; };
+		FADBA26D1F975A120081D982 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBA26C1F975A120081D982 /* CalculatorViewController.swift */; };
+		FADBA26F1F975A200081D982 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBA26E1F975A200081D982 /* MenuViewController.swift */; };
+		FADBA2721F979C560081D982 /* MagicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBA2711F979C560081D982 /* MagicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		072BF6B9243F1B9BB4B15130 /* Pods-Lets Roll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lets Roll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lets Roll/Pods-Lets Roll.debug.xcconfig"; sourceTree = "<group>"; };
+		153B4C8F58318830D3318EE2 /* Pods-Lets RollTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lets RollTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lets RollTests/Pods-Lets RollTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F7C52EFCAC51E808DBAC481 /* Pods-Lets RollUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lets RollUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lets RollUITests/Pods-Lets RollUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20EFC8FA905FF5A528BF2DBD /* Pods_Lets_RollTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lets_RollTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F8EACD46F3A4EAF91629B7 /* Pods_Lets_Roll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lets_Roll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4A254543FB740003F37D14 /* Pods-Lets Roll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lets Roll.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lets Roll/Pods-Lets Roll.release.xcconfig"; sourceTree = "<group>"; };
+		62C9A53C307C5E3DCB5133A5 /* Pods-Lets RollTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lets RollTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lets RollTests/Pods-Lets RollTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CED7E560876C2109C4E484B7 /* Pods-Lets RollUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lets RollUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lets RollUITests/Pods-Lets RollUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F182808E84CE66286ED113AC /* Pods_Lets_RollUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lets_RollUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2EE8AB1F921AD500D9E6EC /* Lets Roll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lets Roll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2EE8AE1F921AD500D9E6EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA2EE8B01F921AD500D9E6EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,11 @@
 		FA2EE8CA1F921AD600D9E6EC /* Lets RollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lets RollUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2EE8CE1F921AD600D9E6EC /* Lets_RollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lets_RollUITests.swift; sourceTree = "<group>"; };
 		FA2EE8D01F921AD600D9E6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADBA26A1F975A030081D982 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FADBA26C1F975A120081D982 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		FADBA26E1F975A200081D982 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FADBA2701F975C130081D982 /* myGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = myGif.gif; sourceTree = "<group>"; };
+		FADBA2711F979C560081D982 /* MagicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C221C1AE8FF4081A09615B86 /* Pods_Lets_Roll.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D9B77B54B4BA867C393424 /* Pods_Lets_RollTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +91,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E739D1778A0431C98FCDE7 /* Pods_Lets_RollUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0337765CB2E1AC396EB872B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38F8EACD46F3A4EAF91629B7 /* Pods_Lets_Roll.framework */,
+				20EFC8FA905FF5A528BF2DBD /* Pods_Lets_RollTests.framework */,
+				F182808E84CE66286ED113AC /* Pods_Lets_RollUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E59AF016C0AD88E2C98B8254 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				072BF6B9243F1B9BB4B15130 /* Pods-Lets Roll.debug.xcconfig */,
+				4D4A254543FB740003F37D14 /* Pods-Lets Roll.release.xcconfig */,
+				62C9A53C307C5E3DCB5133A5 /* Pods-Lets RollTests.debug.xcconfig */,
+				153B4C8F58318830D3318EE2 /* Pods-Lets RollTests.release.xcconfig */,
+				1F7C52EFCAC51E808DBAC481 /* Pods-Lets RollUITests.debug.xcconfig */,
+				CED7E560876C2109C4E484B7 /* Pods-Lets RollUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FA2EE8A21F921AD500D9E6EC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +128,8 @@
 				FA2EE8C21F921AD600D9E6EC /* Lets RollTests */,
 				FA2EE8CD1F921AD600D9E6EC /* Lets RollUITests */,
 				FA2EE8AC1F921AD500D9E6EC /* Products */,
+				E59AF016C0AD88E2C98B8254 /* Pods */,
+				E0337765CB2E1AC396EB872B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +149,11 @@
 				FA2EE8AE1F921AD500D9E6EC /* AppDelegate.swift */,
 				FA2EE8B01F921AD500D9E6EC /* ViewController.swift */,
 				FA2EE8B21F921AD500D9E6EC /* Main.storyboard */,
+				FADBA2711F979C560081D982 /* MagicViewController.swift */,
+				FADBA26A1F975A030081D982 /* LoginViewController.swift */,
+				FADBA26C1F975A120081D982 /* CalculatorViewController.swift */,
+				FADBA2701F975C130081D982 /* myGif.gif */,
+				FADBA26E1F975A200081D982 /* MenuViewController.swift */,
 				FA2EE8B51F921AD500D9E6EC /* Assets.xcassets */,
 				FA2EE8B71F921AD500D9E6EC /* LaunchScreen.storyboard */,
 				FA2EE8BA1F921AD500D9E6EC /* Info.plist */,
@@ -132,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA2EE8D31F921AD600D9E6EC /* Build configuration list for PBXNativeTarget "Lets Roll" */;
 			buildPhases = (
+				54FD799FF1D908E0EEC61502 /* [CP] Check Pods Manifest.lock */,
 				FA2EE8A71F921AD500D9E6EC /* Sources */,
 				FA2EE8A81F921AD500D9E6EC /* Frameworks */,
 				FA2EE8A91F921AD500D9E6EC /* Resources */,
+				9AEF66915BC87ED954C1BE49 /* [CP] Embed Pods Frameworks */,
+				77B5F6787DAB28007EA06CC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA2EE8D61F921AD600D9E6EC /* Build configuration list for PBXNativeTarget "Lets RollTests" */;
 			buildPhases = (
+				BD835E733673F689088CF648 /* [CP] Check Pods Manifest.lock */,
 				FA2EE8BB1F921AD600D9E6EC /* Sources */,
 				FA2EE8BC1F921AD600D9E6EC /* Frameworks */,
 				FA2EE8BD1F921AD600D9E6EC /* Resources */,
+				A37FC080D1AC633F70421199 /* [CP] Embed Pods Frameworks */,
+				E7CACC64F523EEC7BEB2CC25 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA2EE8D91F921AD600D9E6EC /* Build configuration list for PBXNativeTarget "Lets RollUITests" */;
 			buildPhases = (
+				B00909E68688C6F90AE6810F /* [CP] Check Pods Manifest.lock */,
 				FA2EE8C61F921AD600D9E6EC /* Sources */,
 				FA2EE8C71F921AD600D9E6EC /* Frameworks */,
 				FA2EE8C81F921AD600D9E6EC /* Resources */,
+				0359DD457FB02A2CC5C3D8B6 /* [CP] Embed Pods Frameworks */,
+				75400B8A7D8164799A229198 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +317,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0359DD457FB02A2CC5C3D8B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lets RollUITests/Pods-Lets RollUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54FD799FF1D908E0EEC61502 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lets Roll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75400B8A7D8164799A229198 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lets RollUITests/Pods-Lets RollUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B5F6787DAB28007EA06CC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lets Roll/Pods-Lets Roll-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AEF66915BC87ED954C1BE49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lets Roll/Pods-Lets Roll-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lets Roll/Pods-Lets Roll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A37FC080D1AC633F70421199 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lets RollTests/Pods-Lets RollTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B00909E68688C6F90AE6810F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lets RollUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD835E733673F689088CF648 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lets RollTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7CACC64F523EEC7BEB2CC25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lets RollTests/Pods-Lets RollTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA2EE8A71F921AD500D9E6EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADBA26B1F975A030081D982 /* LoginViewController.swift in Sources */,
+				FADBA26F1F975A200081D982 /* MenuViewController.swift in Sources */,
 				FA2EE8B11F921AD500D9E6EC /* ViewController.swift in Sources */,
+				FADBA26D1F975A120081D982 /* CalculatorViewController.swift in Sources */,
+				FADBA2721F979C560081D982 /* MagicViewController.swift in Sources */,
 				FA2EE8AF1F921AD500D9E6EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +641,7 @@
 		};
 		FA2EE8D41F921AD600D9E6EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072BF6B9243F1B9BB4B15130 /* Pods-Lets Roll.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +657,7 @@
 		};
 		FA2EE8D51F921AD600D9E6EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4A254543FB740003F37D14 /* Pods-Lets Roll.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +673,7 @@
 		};
 		FA2EE8D71F921AD600D9E6EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C9A53C307C5E3DCB5133A5 /* Pods-Lets RollTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +691,7 @@
 		};
 		FA2EE8D81F921AD600D9E6EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153B4C8F58318830D3318EE2 /* Pods-Lets RollTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +709,7 @@
 		};
 		FA2EE8DA1F921AD600D9E6EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7C52EFCAC51E808DBAC481 /* Pods-Lets RollUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +726,7 @@
 		};
 		FA2EE8DB1F921AD600D9E6EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED7E560876C2109C4E484B7 /* Pods-Lets RollUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
